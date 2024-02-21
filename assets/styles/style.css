@@ -1,0 +1,44 @@
+body {
+  padding-top: 6rem;
+}
+
+.tile-image {
+  max-width: 100px;
+}
+
+.main-title {
+  font-size: 3.5rem;
+  font-weight: 500;
+  color: black;
+}
+
+.tile-text {
+  font-weight: 500;
+  color: black;
+}
+.card {
+  width: 18rem;
+}
+.card-tile {
+  border: solid 1px black;
+}
+
+@media (max-width:992px) {
+  body {
+    padding-top: 12rem;
+    padding-bottom:2rem;
+  }
+  .card {
+    width: 12rem;
+  }
+
+  .main-title {
+    font-size: 2rem;
+  }
+}
+
+@media (max-width:576px) {
+  .main-title {
+    font-size: 1.8rem;
+  }
+}
