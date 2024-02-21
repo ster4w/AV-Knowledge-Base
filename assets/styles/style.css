@@ -1,9 +1,11 @@
 body {
   padding-top: 6rem;
+  
 }
 
 .tile-image {
-  max-width: 100px;
+  max-width: 150px;
+  
 }
 
 .main-title {
@@ -28,9 +30,8 @@ body {
     padding-top: 12rem;
     padding-bottom:2rem;
   }
-  .card {
-    width: 12rem;
-  }
+
+  
 
   .main-title {
     font-size: 2rem;
@@ -40,5 +41,12 @@ body {
 @media (max-width:576px) {
   .main-title {
     font-size: 1.8rem;
+  }
+  .card {
+    width: 12rem;
+  }
+  .tile-image {
+    max-width: 100px;
+    
   }
 }
