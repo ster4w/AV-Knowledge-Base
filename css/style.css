@@ -53,11 +53,10 @@ box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
     font-size: small;
     
   }
-
-  
-
-
 }
+
+
+
 
 .main-content {
   min-height: 100vh;
@@ -68,7 +67,7 @@ box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
   font-size:3rem;
   font-weight: 700;
   text-align: left;
-  line-height: 1
+  line-height: 1;
   
 }
 
@@ -92,3 +91,12 @@ box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
   border-start-end-radius: 0;
   border-end-end-radius: 0;
 }
+
+@media (max-width:385px){
+  
+  .Titolo {
+    font-size:1.1rem;
+    
+  }
+    
+  }
