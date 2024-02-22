@@ -59,6 +59,11 @@ box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
 
 }
 
+.main-content {
+  min-height: 100vh;
+}
+
+
 .title-text {
   font-size:3rem;
   font-weight: 700;
