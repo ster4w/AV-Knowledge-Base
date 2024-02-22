@@ -23,11 +23,17 @@ input[type="text"]:focus {
  min-height: 50vh;
 }
 
+.cat-tile:hover{
+box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+}
+
 .cat-tile {
   border-radius: 0.75rem;
   padding:10px;
   color: inherit; /* blue colors for links too */
   text-decoration: inherit; /* no underline */
+  width:150px;
+  height:180px;
 }
 
 @keyframes gradient-animation {
